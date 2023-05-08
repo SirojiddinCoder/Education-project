@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    width: 100%;
+    /* background-color: pink; */
+    height: 100px;
+}
+.navbar{
+width: 1600px;
+    /* background-color: red; */
+    height: 48px;
+    margin: 0 auto;
+    display: flex;
+    line-height: 48px;
+    margin-top: 40px;
+    justify-content: space-around;
+    /* padding-left: 144px; */
+    /* padding-right: 144px; */
+  
+}
+ .navbar_link{
+    text-decoration: none;
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 155%;
+
+
+
+color: #222222;
+margin-left: 62px;
+
+}
+.active{
+    color: blue;
+}
+.navbar_link:hover{
+    color: blue;
+}
+.logo{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    
+    color: #222222;
+}
+.nav_btn{
+    
+background: #086CF9;
+border-radius: 4px;
+padding: 12px 24px;
+color: white;
+}
